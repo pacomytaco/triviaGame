@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+
+    <title>Trivia!</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="form-group text-center">
+        <div class="card">
+            <div class="card-body">
+
+                <h1 id="title">Totally Trivial Trivia!</h1>
+
+                <div><button type="button" class="btn btn-primary btn-lg" id="start">Click to Start</button></div>
+
+                <div class="newclass" id="time">
+                    Time remaining:<span id="timer"></span>
+                    <div id="results"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <form>
+            <p>1) How much do most alpacas weigh?</p>
+            <div>
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="incorrect">60 - 100 pounds
+                </label>
+                
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="correct">100 - 175 pounds 
+                </label>
+
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="incorrect">80 - 120 pounds
+                </label>
+
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="incorrect">180 pounds
+                </label>
+        </form>
+
+        <form>
+            <p>2) What is the scientific name for alpacas?</p>
+            <div>
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="incorrect">Equus Caballus
+                </label>
+                
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="incorrect">Ovus Aries 
+                </label>
+
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="incorrect">Lama Glama
+                </label>
+
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="correct">Vicugna Pacos
+                </label>
+        </form>
+
+        <form>
+            <p>3) What are the two types of alpacas?</p>
+            <div>
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="correct"> Huacaya vs Suri
+                </label>
+                
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="incorrect"> Bengal vs Abyssinian 
+                </label>
+
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="incorrect">Haflinger vs Friesian
+                </label>
+
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="incorrect">Pembroke vs Cardigan 
+                </label>
+        </form>
+
+        <form>
+            <p>4) Alpacas were bred to be...</p>
+            <div>
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="incorrect">beasts of burden, pack animals
+                </label>
+                
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="incorrect">companion animals
+                </label>
+
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="incorrect">food source
+                </label>
+
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="correct">fiber (wool) animals 
+                </label>
+        </form>
+
+        <form>
+            <p>5) Naturally, how many colors does alapaca fiber come in?</p>
+            <div>
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="incorrect"> 15
+                </label>
+                
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="incorrect"> 34
+                </label>
+
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="correct"> 52
+                </label>
+
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="incorrect">100 
+                </label>
+        </form>
+
+        <form>
+            <p>6) Alapacas live up to...</p>
+            <div>
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="incorrect">15 years
+                </label>
+                
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="correct">20 years 
+                </label>
+
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="incorrect">25 years
+                </label>
+
+                <label class="radio-inline">
+                    <input type="radio" name="answer" class"answer" value="incorrect">30 years 
+                </label>
+        </form>
+        </div> <!-- form group-->
+
+        <div class="card">
+            <div class="card-body">
+                <button type="button" class="btn btn-primary btn-lg" id="finish">Finished</button>
+            </div>
+        </div>
+        
+    </div> <!--container -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" 
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
+
+
